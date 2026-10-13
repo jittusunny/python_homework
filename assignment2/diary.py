@@ -4,10 +4,10 @@ try:
         first=True
         while True:
             if first:
-                entry=input("what happened today?")
+                entry = input("What happened today? ")
                 first=False
             else:
-                entry=input("what else")
+                entry = input("What else? ")
             diary.write(entry + "\n")
             if entry == "done for now":
                 break
