@@ -1,0 +1,15 @@
+function: say_hello
+positional parameters: none
+keyword parameters: none
+return: None
+
+function: check_arguments
+positional parameters: ('apple', 10, True)
+keyword parameters: none
+return: True
+
+function: get_decorator
+positional parameters: none
+keyword parameters: {'name': 'John', 'age': 12}
+return: <function logger_decorator at 0x103037380>
+
