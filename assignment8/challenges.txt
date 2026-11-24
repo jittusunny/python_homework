@@ -1,0 +1,5 @@
+Task 6 - Challenges
+
+The OWASP page layout changed and redirects to the current OWASP Top Ten site, so I used the 2021 canonical page for the stable ten entries and XPath to identify each A01-A10 link. I kept the selectors focused and deduplicated links so repeated navigation or page elements do not create duplicate vulnerabilities.
+
+The Durham County Library robots.txt explicitly disallows / for normal crawlers, so I did not attempt a live scrape. I used the live page structure to record sensible selectors and included clear missing-element handling in the script rather than bypassing the site's policy.
