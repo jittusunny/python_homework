@@ -1,0 +1,10 @@
+Task 5 - Wikipedia robots.txt
+
+1. Which sections are restricted for crawling?
+The general * user-agent rules disallow /w/, /api/, /trap/, Special pages under /wiki/Special:, and several other wiki namespaces and language-specific special pages. The file also contains many Wikipedia-specific disallows for pages related to deletions, user access, spam, quality control, and other administrative or discussion areas. Several named crawlers, including MJ12bot, UbiCrawler, DOC, HTTrack, wget, and others, also have their own Disallow: / rules.
+
+2. Are there specific rules for certain user agents?
+Yes. The file defines rules for named user agents such as MJ12bot, Mediapartners-Google*, SemrushBot, wget, HTTrack, and many more. It also has a general User-agent: * section. For example, SemrushBot has a five-second crawl delay, while several poorly behaved crawlers are completely disallowed.
+
+3. Why do websites use robots.txt?
+Websites use robots.txt to communicate crawl permissions and request responsible behavior from automated clients. It helps reduce server load, protects administrative or dynamic sections, and provides crawlers with delays or exceptions to follow. Ethical scrapers review these rules and adjust their behavior instead of placing avoidable traffic or unwanted requests on a website.
